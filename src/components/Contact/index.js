@@ -36,10 +36,10 @@ export default function Contact() {
 
     emailjs
       .send(
-        REACT_APP_SERVICEID,
-        REACT_APP_TEMPLATE,
+        "service_5b2dqys",
+        "template_s9gq7x6",
         templateParams,
-        REACT_APP_PUBLICKEY
+        "RimVTTK2NdQJXEhac"
       )
       .then(
         (response) => {
